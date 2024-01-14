@@ -5,19 +5,19 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #f8f9fa; /* Light background color */
+    background-color: #f8f9fa; 
 }
 
 .game-container {
     text-align: center;
-    background-color: #fff; /* White background for the game container */
+    background-color: #fff; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    color: #007bff; /* Blue color for the heading */
+    color: #007bff;
 }
 
 .board {
@@ -30,7 +30,7 @@ h1 {
 .cell {
     width: 100px;
     height: 100px;
-    border: 2px solid #007bff; /* Blue border for cells */
+    border: 2px solid #007bff; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,14 +40,13 @@ h1 {
 }
 
 .cell:hover {
-    background-color: #f4f4f4; /* Light background color on hover */
-}
+    background-color: #f4f4f4; 
 
 .result {
     font-size: 24px;
     font-weight: bold;
     margin: 20px 0;
-    color: #333; /* Dark color for the result message */
+    color: #333; 
 }
 
 button {
